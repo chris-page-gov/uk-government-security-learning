@@ -1,0 +1,38 @@
+---
+type: Catalogue record
+title: GovAssure Newsletter Issue 26
+description: 'Catalogue section: GovAssure news and updates. Source page updated:
+  23 February 2026. Browse assurance, cyber security. Sign-in required; this note
+  uses public metadata only.'
+status: draft
+generated:
+  at: '2026-10-31T21:30:00Z'
+  by: process:public-security-discovery/1
+---
+
+# GovAssure Newsletter Issue 26
+
+**Source access: Sign-in required.**
+
+Source page updated: 23 February 2026. This is the source page's displayed date, not an event date.
+
+## Find your way
+
+Catalogue section: GovAssure news and updates. Source page updated: 23 February 2026. Browse assurance, cyber security. Sign-in required; this note uses public metadata only.
+
+Source URL sections: [GovAssure](entry-114ec202b3f1296b9ee2.md) → [GovAssure news and updates](entry-1b7b85d897d0e9d65f90.md). This is URL-based navigation, not a description of the protected source.
+
+Open topic guides: [Assurance](../topics/assurance.md), [Cyber security](../topics/cyber-security.md).
+
+[Open the original source — sign-in required](https://www.security.gov.uk/policy-and-guidance/govassure/govassure-newsletters/govassure-newsletter-issue-26/)
+
+Based on the public portal listing observed on 31 October 2026. No abstract of the protected source is included. [About this catalogue](../method.md).
+
+## Suggested open background
+
+Selected using public title matches or source URL sections. These are discovery suggestions, not summaries or requirements of the sign-in source.
+
+- [GovAssure](entry-114ec202b3f1296b9ee2.md)
+- [GovAssure news and updates](entry-1b7b85d897d0e9d65f90.md)
+- [Secure by Design](entry-60e4ba50ee0b5e11c143.md)
+

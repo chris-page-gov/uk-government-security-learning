@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "source_commit": "36cb60978864aadc9fd781937a8f2de2b4eb6aab",
+  "site_manifest_sha256": "573cc064ff80579f7203f3d853fa83fd6a5112839ed7b74a57106c62f6dc5844",
+  "public_bundle_sha256": "e629578cb925a53edbe2f1b26bb4f52aec38952548863694fc07af9b5c067982",
+  "snapshot_id": "security-learning-3b3d895e777de2ee",
+  "files": 903,
+  "private_source_bodies": 0,
+  "schema": "security-learning-public-promotion.v1",
+  "source_repository": "https://github.com/chris-page-gov/uk-gov-engineering-standards",
+  "source_repository_visibility": "private",
+  "assured_workflow_run": "https://github.com/chris-page-gov/uk-gov-engineering-standards/actions/runs/41259357975",
+  "publication_repository": "https://github.com/chris-page-gov/uk-government-security-learning",
+  "policy": "Exact assured bytes copied; no rebuild. Protected sources, private findings and operational records excluded."
+}

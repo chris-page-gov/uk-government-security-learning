@@ -1,0 +1,51 @@
+{
+  "assertions": 5100,
+  "assertions_schema_validated": 5100,
+  "authenticated_inputs_read": 0,
+  "base_bundle_sha256": "7dee1b42309ca18ac6c8d0ad768cfde9c9e99daf5d9b389e76d5b22d8be54f36",
+  "bundle_sha256": "e629578cb925a53edbe2f1b26bb4f52aec38952548863694fc07af9b5c067982",
+  "facet_validation": {
+    "access": {
+      "Public context": 71,
+      "Public page": 159,
+      "Sign-in required": 557
+    },
+    "topic": {
+      "Agentic governance": 6,
+      "Assurance": 91,
+      "Cyber security": 148,
+      "Governance and policy": 34,
+      "Governance as code": 2,
+      "Incident response": 7,
+      "Information handling": 11,
+      "Learning and events": 5,
+      "Learning glossary": 10,
+      "Learning pathways": 5,
+      "Other catalogue entries": 16,
+      "Overseas security": 514,
+      "Personnel security": 5,
+      "Physical security": 3,
+      "Public evidence": 27,
+      "Public glossary": 7,
+      "Risk management": 12,
+      "Technical security": 1,
+      "Using this catalogue": 2
+    }
+  },
+  "independent_domain_acceptance": "pending",
+  "nodes": 787,
+  "normalized_graph_sha256": "00594ea39370aff1dc3fe5cda3f22f3cc3f137ae48f9ebb0f3960b10a537beea",
+  "pathways": 3,
+  "private_imports_included": 0,
+  "public_pages": 159,
+  "questions": 8,
+  "restricted_bodies_read": 0,
+  "schema": "public-security-learning-build.v1",
+  "selected_passages": 17,
+  "selected_sources": 10,
+  "shacl_conforms": true,
+  "sign_in_metadata_entries": 557,
+  "snapshot_id": "security-learning-3b3d895e777de2ee",
+  "status": "passed",
+  "teaching_concepts": 11
+}

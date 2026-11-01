@@ -1,0 +1,18 @@
+{
+  "bundles": [
+    {
+      "description": "Public metadata and source-cited local teaching; no protected bodies or attachments.",
+      "id": "https://github.com/chris-page-gov/uk-gov-engineering-standards/id/public-learning",
+      "kind": "small-corpus",
+      "label": "Security learning and public catalogue",
+      "semantic_url": "../okf/okf-bundle.yamlld",
+      "status": "preview",
+      "title": "Public security learning OKF+",
+      "url": "../okf/okf-bundle.json",
+      "version": "1.0.0"
+    }
+  ],
+  "profile": "https://chris-page-gov.github.io/okf-explorer/profile/bundle-wiki/v1/",
+  "schema": "okf-explorer-registry.v1",
+  "title": "Public security learning registry"
+}

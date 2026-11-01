@@ -1,0 +1,384 @@
+{
+  "schema": "public-learning-evidence.v1",
+  "version": "1.0.0",
+  "prepared_at": "2026-10-31T23:49:00Z",
+  "scope": "Public source selections, independently worded summaries and explicitly local teaching analysis. No authenticated bodies, private findings or supplied documents.",
+  "sources": [
+    {
+      "id": "govs-005",
+      "title": "Government Functional Standard - GovS 005: Digital (HTML)",
+      "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-005-digital/government-functional-standard-govs-005-digital-html",
+      "publisher": "Government Digital Service",
+      "rights": "Selected Crown text under OGL v3.0; source exceptions apply; no logos or third-party material selected",
+      "observed_at": "2026-10-28T10:39:02Z",
+      "edition": null,
+      "authority": "government guidance",
+      "access": "public",
+      "source_status": "selected public evidence; check original for current wording"
+    },
+    {
+      "id": "api-standards",
+      "title": "API technical and data standards",
+      "url": "https://www.gov.uk/guidance/gds-api-technical-and-data-standards",
+      "publisher": "Government Digital Service",
+      "rights": "Selected Crown text under OGL v3.0; source exceptions apply; no logos or third-party material selected",
+      "observed_at": "2026-10-28T10:49:05Z",
+      "edition": null,
+      "authority": "government guidance",
+      "access": "public",
+      "source_status": "selected public evidence; check original for current wording"
+    },
+    {
+      "id": "api-strategy",
+      "title": "Defining an API management strategy",
+      "url": "https://www.gov.uk/guidance/defining-an-api-management-strategy",
+      "publisher": "Government Digital Service",
+      "rights": "Selected Crown text under OGL v3.0; source exceptions apply; no logos or third-party material selected",
+      "observed_at": "2026-10-28T10:39:02Z",
+      "edition": null,
+      "authority": "government guidance",
+      "access": "public",
+      "source_status": "selected public evidence; check original for current wording"
+    },
+    {
+      "id": "ai-playbook",
+      "title": "Artificial Intelligence Playbook for the UK Government",
+      "url": "https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government/artificial-intelligence-playbook-for-the-uk-government-html",
+      "publisher": "Government Digital Service",
+      "rights": "Selected Crown guidance under OGL v3.0; third-party examples and personal information excluded",
+      "observed_at": "2026-10-31T22:48:16.620Z",
+      "edition": null,
+      "authority": "government guidance",
+      "access": "public",
+      "source_status": "selected public evidence; check original for current wording"
+    },
+    {
+      "id": "govs-007",
+      "title": "Government Functional Standard GovS 007: Security",
+      "url": "https://assets.publishing.service.gov.uk/media/613a195bd3bf7f05b694d647/GovS_007-_Security.pdf",
+      "publisher": "Cabinet Office",
+      "rights": "Selected Crown text under OGL v3.0",
+      "observed_at": "2026-10-31T15:24:25.813788+00:00",
+      "edition": "GovS 007 version 2.0, 13 September 2021",
+      "authority": "government guidance",
+      "access": "public",
+      "source_status": "selected public evidence; check original for current wording"
+    },
+    {
+      "id": "portal-terms",
+      "title": "Security.gov.uk terms and conditions",
+      "url": "https://www.security.gov.uk/terms-and-conditions",
+      "publisher": "Government Security Function",
+      "rights": "Selected public Crown terms; OGL conditions and exceptions retained",
+      "observed_at": "2026-10-31T19:10:08.157Z",
+      "edition": null,
+      "authority": "government guidance",
+      "access": "public",
+      "source_status": "selected public evidence; check original for current wording"
+    },
+    {
+      "id": "ncsc-agentic-risk",
+      "title": "Managing the cyber risk of agentic AI",
+      "url": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
+      "publisher": "National Cyber Security Centre",
+      "rights": "Metadata and independently worded factual paraphrases only; no NCSC article text or images reproduced",
+      "observed_at": "2026-10-31T22:51:53.112Z",
+      "edition": null,
+      "authority": "public national cyber security guidance",
+      "access": "public",
+      "source_status": "selected public evidence; check original for current wording"
+    },
+    {
+      "id": "webmcp-spec",
+      "title": "WebMCP Draft Community Group Report",
+      "url": "https://webmachinelearning.github.io/webmcp/",
+      "publisher": "Web Machine Learning Community Group",
+      "rights": "Metadata and local technical explanation; no specification body reproduced",
+      "observed_at": "2026-10-31T22:50:00Z",
+      "edition": "27 October 2026 draft",
+      "authority": "experimental technical specification; not government policy",
+      "access": "public",
+      "source_status": "selected public evidence; check original for current wording"
+    },
+    {
+      "id": "ibm-ipaas",
+      "title": "What is iPaaS (integration platform as a service)?",
+      "url": "https://www.ibm.com/think/topics/ipaas",
+      "publisher": "IBM",
+      "rights": "Metadata and a short independent technical paraphrase only; no article text or images reproduced",
+      "observed_at": "2026-10-31T23:13:24Z",
+      "edition": "Updated 6 April 2026",
+      "authority": "vendor technical explanation; not government policy or a product recommendation",
+      "access": "public",
+      "source_status": "selected public evidence; check original for current wording"
+    },
+    {
+      "id": "public-catalogue",
+      "title": "Public security.gov.uk catalogue",
+      "url": "https://www.security.gov.uk/policy-and-guidance/",
+      "publisher": "Government Security Function",
+      "rights": "Published catalogue metadata under portal feed terms; protected bodies excluded",
+      "observed_at": "2026-10-31T19:08:19.229Z",
+      "edition": "31 October 2026 snapshot",
+      "authority": "public listing metadata only",
+      "access": "public",
+      "source_status": "selected public evidence; check original for current wording"
+    }
+  ],
+  "passages": [
+    {
+      "id": "GOVS005-AUTHORITY",
+      "source_id": "govs-005",
+      "heading": "Governance and delegated authority",
+      "text": "4.1.1 Overview Governance covers prioritising, authorising, empowering, overseeing and assuring performance across government and within each organisation. A governance and management framework shall be defined by those accountable for government digital and data activity. It should ensure governance is effective, proportionate, structured and aligned with cross-government priorities, including the safe, secure and responsible use of artificial intelligence. It should include: delegated authority limits, decision-making roles and rules, assurance needs, reporting structures, accountabilities and escalation routes management practices and documentation needed to meet this standard, including records of significant digital, data and AI-enabled systems where appropriate risk appetite and tolerance, risk ownership, reporting, oversight and escalation arrangements within the governance and management framework",
+      "kind": "source-quotation",
+      "locator": "Retained public source lines L00092–L00098",
+      "text_sha256": "4b0ab84109bbcf3b5991aebcf1ed89a1cf05e5613a87b7cef6eef2c88cadb7a3",
+      "topics": [
+        "ownership",
+        "authority",
+        "governance"
+      ]
+    },
+    {
+      "id": "GOVS005-AI-LIFECYCLE",
+      "source_id": "govs-005",
+      "heading": "AI planning and lifecycle assurance",
+      "text": "A detailed plan for government digital and data activity should set out owners, milestones, dependencies, risks and key performance indicators. Where AI is used, the plan should also define the intended benefits, data requirements, human oversight, assurance approach, model or tool ownership, monitoring arrangements and route for escalating risks. Plans should be agreed with relevant senior leaders and reviewed through governance and performance reporting. 4.3 Assurance Assurance provides confidence to senior leaders and stakeholders that work is controlled, proportionate and supports successful delivery of policy, strategy and objectives. Organisations should have a defined approach to assurance of government digital and data spend and activity. Assurance should be proportionate to risk, value and impact, integrated with the organisation’s overall assurance framework, and aligned to cross-government strategy, standards and expenditure controls. AI-enabled activity should be assured across its lifecycle, including use case selection, data quality, privacy, security, ethical risk, bias, transparency, human oversight, procurement, operational monitoring and retirement. Assurance should confirm that AI is used only where it is appropriate, lawful, secure and supported by the right skills and controls.",
+      "kind": "source-quotation",
+      "locator": "Retained public source lines L00145–L00149",
+      "text_sha256": "8e2f86427d8ad23fd05e98dbbf10880a246b96d78233b0ca59828ee15fffb741",
+      "topics": [
+        "assurance",
+        "lifecycle",
+        "human control"
+      ]
+    },
+    {
+      "id": "API-SCOPES",
+      "source_id": "api-standards",
+      "heading": "Control access to your API",
+      "text": "As well as authenticating your users, you should define resource-level access controls for your API, and check the authorisation for every request. When using OAuth 2.0 this means: a user must first request the scope of access they need to your API – for example, an order-read or order-write scope on each call to your API you should check that the user has the required scope before granting them access Defining scopes in this way allows for fine-grained access control to the endpoints of your API, and means you can include the authorisation information in your OAS specification . This makes it easier for consumers to use your API securely. Authentication and authorisation are features that can be defined and controlled through an API management system. Find out more about how to manage operations with an API gateway .",
+      "kind": "source-quotation",
+      "locator": "Retained public source lines L00137–L00142",
+      "text_sha256": "1dc28eb73b463982d665930317bd36da5572f881ccffc604ee48af92f49ffca0",
+      "topics": [
+        "authorisation",
+        "authentication",
+        "scope",
+        "API"
+      ]
+    },
+    {
+      "id": "API-TOKEN-EXCHANGE",
+      "source_id": "api-standards",
+      "heading": "Token exchange and delegated access",
+      "text": "OAuth 2.0 typically uses digitally signed security tokens in JWT (JSON Web Token) format that are passed in the Authenticate header of a request, making them harder to tamper with. OAuth 2.0 defines ways to authenticate different types of API clients: use client credentials when another service or application is consuming your API, outside of the context of a user use token exchange when another service or application needs to consume your API on behalf of a user – for example, the backend service of a web application needs to access your API with the same level of permissions as the user would receive use authorisation code , with the PKCE extension, when a user accesses your API – for example, through a web application",
+      "kind": "source-quotation",
+      "locator": "Retained public source lines L00132–L00136",
+      "text_sha256": "c6e759a79c8ba8c0d88c94ab9bb8f8870db25df041ad7db4d2ae8e81e8f115f3",
+      "topics": [
+        "delegation",
+        "identity",
+        "token",
+        "API"
+      ]
+    },
+    {
+      "id": "API-OWNERSHIP",
+      "source_id": "api-strategy",
+      "heading": "Organisational structure and API ownership",
+      "text": "A robust API management process will help build credibility and trust with users of your APIs. It’s important to demonstrate your APIs are well designed and well supported. For example, being clear about how you retire APIs will reassure external developers they will not suddenly lose access to an API without notice. Define roles for API management Depending on the size and structure of your organisation, you might have several teams involved in building and maintaining APIs. Your API management strategy can help set out things like: who owns different parts of the API life cycle what skills or roles API teams should include how ownership changes as an API goes into service For example, it’s common for a central team to run the API gateway, and therefore have control over service levels and capacity. You should then consider how that responsibility might interact with the design and delivery responsibilities of an API owner, like versioning. Having a clear structure for escalating issues will save a lot of time and energy in the future. Support from senior management or stakeholders can help formalise organisational structures and policies.",
+      "kind": "source-quotation",
+      "locator": "Retained public source lines L00018–L00025",
+      "text_sha256": "1fb78cfe39b0c67e26646750dda3b659133eaa6372e4c15c72e2964122c366f7",
+      "topics": [
+        "ownership",
+        "escalation",
+        "governance"
+      ]
+    },
+    {
+      "id": "API-GOVERNANCE",
+      "source_id": "api-strategy",
+      "heading": "Foundations and standardised governance",
+      "text": "Build foundations early If you have APIs, you should use an API gateway. Even a single API will benefit from the standardised tools an API gateway provides, by not having to develop and deploy those elements of functionality. If you build more APIs later, having an API gateway already in place will mean you will not have to build those tools again, reducing duplication of effort for future teams. It might be difficult to apply this model if: you already have APIs in production which have their own security or monitoring your APIs have each been developed using different methods and technologies Consider how you can put in place standardised patterns, processes and governance your teams will use to build and deploy APIs. You should focus on principles and frameworks rather than specific technologies, and consider how detailed and rigid these should be. For example, you might apply strict rules for security, while allowing more flexibility in other areas. You can read more about using an API gateway in the section of this guidance called ‘Managing operations with an API gateway’.",
+      "kind": "source-quotation",
+      "locator": "Retained public source lines L00005–L00011",
+      "text_sha256": "fca8ffce08147aa224d064a4e99e31a0f02b09d7d6d8e38b78aeceb2867f5d1c",
+      "topics": [
+        "governance",
+        "controls",
+        "API"
+      ]
+    },
+    {
+      "id": "AI-HUMAN-CONTROL",
+      "source_id": "ai-playbook",
+      "heading": "Human oversight",
+      "text": "You must also put the necessary oversight and human-in-the-loop processes in place to validate output in situations with high impact or risk. Where these risks are too high, you must reconsider if AI should be used at all. Refer to the Identifying use cases for AI section for more on this.",
+      "kind": "source-quotation",
+      "locator": "Public HTML, Human oversight",
+      "text_sha256": "eb8a00bd8d27a00c714f4cbc5a98450dbefbc9674bb87ccc1a2e0cbd32d17291",
+      "topics": [
+        "human control",
+        "approval",
+        "risk"
+      ]
+    },
+    {
+      "id": "AI-ACCOUNTABILITY",
+      "source_id": "ai-playbook",
+      "heading": "Answerability and human responsibility",
+      "text": "You should establish a chain of human responsibility across the AI project life cycle, including responsibility throughout the supply chain. In cases of harm or errors caused by AI, you need to establish recourse and feedback mechanisms for affected individuals.",
+      "kind": "source-quotation",
+      "locator": "Public HTML, Answerability and human responsibility",
+      "text_sha256": "0e53af3cb3391a8c0a76833585a737c2fad5cdb4fb2b58c12c95c862a4a2246a",
+      "topics": [
+        "ownership",
+        "accountability"
+      ]
+    },
+    {
+      "id": "AI-AUDITABILITY",
+      "source_id": "ai-playbook",
+      "heading": "Auditability",
+      "text": "Auditability is the process of documenting every stage of the AI innovation life cycle – from data collection and base model training to implementation, system deployment, updating and retirement – in a way that’s accessible to relevant stakeholders and easily understood.",
+      "kind": "source-quotation",
+      "locator": "Public HTML, Auditability",
+      "text_sha256": "d5066c2bf71ea1842ed876d71f5ef56bc29adf22391221a3d4090c485e92cf7f",
+      "topics": [
+        "audit",
+        "evidence",
+        "lifecycle"
+      ]
+    },
+    {
+      "id": "AI-ASSURANCE",
+      "source_id": "ai-playbook",
+      "heading": "Governance and assurance",
+      "text": "You should understand, monitor and mitigate the risks that using AI tools can bring. Connect with the right assurance teams in your organisation early in the project life cycle for your AI solutions. You should have clearly documented review and escalation processes in place, and have an AI review board or programme-level board.",
+      "kind": "source-quotation",
+      "locator": "Public HTML, Governance and assurance",
+      "text_sha256": "c961e3c79d759988776f4e19676cd0f1c5d4bb7cc57aa4b14a66054fbe4cde68",
+      "topics": [
+        "assurance",
+        "review",
+        "escalation"
+      ]
+    },
+    {
+      "id": "SECURITY-ASSURANCE",
+      "source_id": "govs-007",
+      "heading": "4.2 Assurance",
+      "text": "4.2 Assurance The purpose of assurance is to provide, through a systematic set of actions, confidence to senior leaders and stakeholders that work is controlled and supports secure and successful delivery of policy, strategy and objectives.",
+      "kind": "source-quotation",
+      "locator": "Version 2.0 (2021), section 4.2",
+      "text_sha256": "bb8a98d9aed4f355b4edd128f8eddca499fd9bfd24a97c1ab6f5922716b27cee",
+      "topics": [
+        "assurance",
+        "security",
+        "evidence"
+      ]
+    },
+    {
+      "id": "PUBLIC-REUSE",
+      "source_id": "portal-terms",
+      "heading": "Using security.gov.uk content",
+      "text": "Using www.security.gov.uk content Most content on www.security.gov.uk is subject to Crown copyright protection and is published under the Open Government Licence (OGL). Some content is exempt from the OGL – check the list of exemptions. Departmental logos and crests are also exempt from the OGL, except when they form an integral part of a document or dataset. If any content is not subject to Crown copyright protection or published under the OGL, we’ll usually credit the author or copyright holder. You can reproduce content published on www.security.gov.uk under the OGL as long as you follow the licence’s conditions. Contact us if you want to reproduce a piece of content but are not sure if it’s covered by Crown copyright or the OGL. We make most of the content on www.security.gov.uk available through feeds for other websites and applications to use. The websites and applications that use our feeds are not our products, and they might use versions of our content that have been edited and stored for later use (‘cached’). We do not give any guarantees, conditions or warranties about the accuracy or completeness of any content used by these products. We’re not liable for any loss or damage that may come from your use of these products. The most up to date version of our content will always be on www.security.gov.uk.",
+      "kind": "source-quotation",
+      "locator": "Using www.security.gov.uk content",
+      "text_sha256": "d39b7688698cbb2f41f2f28052db9668a585624f5d846cfe506f8180700b8800",
+      "topics": [
+        "publication",
+        "rights",
+        "access"
+      ]
+    },
+    {
+      "id": "AGENT-BOUNDARIES",
+      "source_id": "ncsc-agentic-risk",
+      "heading": "Define goals and constrain access",
+      "text": "The NCSC advises defining the agent's goals and expected behaviour, limiting its access and combining prompts with technical and operational controls. These are complementary safeguards; a prompt alone does not implement the control.",
+      "kind": "local-paraphrase",
+      "locator": "Public article: Define goals and expected behaviour; Apply controls",
+      "text_sha256": "0c230e8985d11301fad6ca8c4d2d027fdfcfceb55d218732fd3f6f8bfb306dad",
+      "topics": [
+        "agent",
+        "authority",
+        "task",
+        "scope",
+        "controls"
+      ]
+    },
+    {
+      "id": "AGENT-OVERSIGHT",
+      "source_id": "ncsc-agentic-risk",
+      "heading": "Human oversight and stopping unexpected activity",
+      "text": "The NCSC describes different levels of human oversight. Where unexpected activity could have significant consequences, it recommends human responsibility, monitoring and the ability to investigate and limit unintended activity. Additional judge agents also need independent evaluation.",
+      "kind": "local-paraphrase",
+      "locator": "Public article: Set the right level of oversight",
+      "text_sha256": "c348329c9ea58a3f9eb30665accd7b3515667a2bbdc8998c90328dc2f184e7dd",
+      "topics": [
+        "agent",
+        "human control",
+        "monitoring",
+        "revocation",
+        "assurance"
+      ]
+    },
+    {
+      "id": "WEBMCP-BOUNDARY",
+      "source_id": "webmcp-spec",
+      "heading": "Tools are an interface, not task authority",
+      "text": "WebMCP lets a page register tools for agents to discover and execute. The draft includes tool annotations and security considerations for untrusted tool content. Our governance interpretation is that this interface does not establish an organisation's authority to perform a whole task, approve a disclosure or operate a government service.",
+      "kind": "local-analysis",
+      "locator": "ModelContext interface; ToolAnnotations; Security and privacy considerations",
+      "text_sha256": "e9b424434f1578c9a32cbc6e53035196c52301f88d256b1ff905d64e2e157dfa",
+      "topics": [
+        "WebMCP",
+        "agent",
+        "authority",
+        "untrusted input"
+      ]
+    },
+    {
+      "id": "IPAAS-DEFINITION",
+      "source_id": "ibm-ipaas",
+      "heading": "iPaaS: integration platform as a service",
+      "text": "iPaaS means integration platform as a service: a managed cloud service for connecting software applications and data. Typical capabilities include ready-made connectors, data mapping and workflow coordination.",
+      "kind": "local-paraphrase",
+      "locator": "iPaaS, defined; public article updated 6 April 2026",
+      "text_sha256": "eeeb277671cd30ef0c1f318d8192aff20dce6f2d440ff747e3906e8c3ccb1a3a",
+      "topics": [
+        "iPaaS",
+        "integration",
+        "API",
+        "workflow",
+        "technical glossary"
+      ]
+    },
+    {
+      "id": "RESTRICTED-METADATA",
+      "source_id": "public-catalogue",
+      "heading": "Working-groups example",
+      "text": "2026 GSG Assurance working groups and drop-in sessions. Last Updated: 29 July, 2026. This is restricted content. (Sign in required)",
+      "kind": "source-quotation",
+      "locator": "Anonymous catalogue page 1; exact public title, displayed date and sign-in notice",
+      "text_sha256": "f7c70a223bab51b7daf0bfd064c01fd6155d8c8274b96f25edc3fc9a78aea5ce",
+      "topics": [
+        "publication",
+        "access",
+        "restricted",
+        "disclosure"
+      ]
+    }
+  ],
+  "attribution": "Contains public sector information licensed under the Open Government Licence v3.0. Other sources retain their specific notices. Local explanations do not imply government endorsement.",
+  "limitations": [
+    "A source citation is not a finding of compliance or approval.",
+    "Paraphrases are labelled and are not quotations.",
+    "The original API bibliography retains its separate 51-reference denominator.",
+    "Restricted catalogue entries provide metadata only; source access and redistribution rights remain separate."
+  ]
+}

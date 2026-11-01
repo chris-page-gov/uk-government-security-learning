@@ -1,0 +1,1 @@
+import{n as e,t}from"../chunks/D11UEa4s.js";var n=e({prerender:()=>!0});export{t as component,n as universal};

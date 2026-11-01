@@ -1,0 +1,489 @@
+{
+  "schema": "security-learning-pathways.v1",
+  "version": "1.0.0",
+  "authority": "Local teaching synthesis grounded in the cited public sources; no approved government operating model or compliance certification.",
+  "concepts": [
+    {
+      "id": "agent",
+      "label": "Software agent",
+      "definition": "Software that selects or performs actions through tools or APIs within a declared operating context. This pathway focuses on AI-enabled agents, whose permitted goals and access need explicit controls.",
+      "citations": [
+        "AGENT-BOUNDARIES",
+        "WEBMCP-BOUNDARY"
+      ],
+      "canonical_iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/id/vocabulary/agent"
+    },
+    {
+      "id": "task-authority",
+      "label": "Task authority",
+      "definition": "Our term for the approved purpose, actions, resources, limits and decision rights for a whole task. It is a local design concept that complements request-level API authorisation.",
+      "citations": [
+        "GOVS005-AUTHORITY",
+        "API-SCOPES",
+        "AGENT-BOUNDARIES"
+      ],
+      "canonical_iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/id/public-learning/concept/task-authority"
+    },
+    {
+      "id": "authentication",
+      "label": "Authentication",
+      "definition": "Establishing a caller's identity. It does not by itself decide which resources and actions that caller may use.",
+      "citations": [
+        "API-SCOPES"
+      ],
+      "canonical_iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/id/public-learning/concept/authentication"
+    },
+    {
+      "id": "authorisation",
+      "label": "Authorisation",
+      "definition": "Deciding whether a caller may access a resource or perform an action. The API standards describe checking the required scope on every request.",
+      "citations": [
+        "API-SCOPES"
+      ],
+      "canonical_iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/id/public-learning/concept/authorisation"
+    },
+    {
+      "id": "delegation",
+      "label": "Delegated authority",
+      "definition": "Authority granted to an actor within a bounded scope. The API guidance describes technical token exchange for acting on behalf of a user; possession of a token does not establish every organisational decision right.",
+      "citations": [
+        "API-TOKEN-EXCHANGE",
+        "GOVS005-AUTHORITY"
+      ],
+      "canonical_iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/id/vocabulary/delegation"
+    },
+    {
+      "id": "governance-as-code",
+      "label": "Governance as code",
+      "definition": "Our teaching term for translating selected approved decision rules into versioned, testable machine-readable checks. It supports governance; it does not encode every legal, ethical or organisational judgement.",
+      "citations": [
+        "GOVS005-AUTHORITY",
+        "AI-AUDITABILITY"
+      ],
+      "canonical_iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/id/public-learning/concept/governance-as-code"
+    },
+    {
+      "id": "revocation",
+      "label": "Revocation",
+      "definition": "Withdrawal of previously granted access or authority, with a stated effective time and enforcement boundary. This site denies a simulated action when its example policy is revoked; a production system must implement and test the actual stopping mechanism.",
+      "citations": [
+        "AGENT-OVERSIGHT"
+      ],
+      "canonical_iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/id/vocabulary/revocation"
+    },
+    {
+      "id": "assurance",
+      "label": "Assurance",
+      "definition": "Systematic work that provides confidence that activity is controlled and supports secure delivery. Evidence and review need to cover the relevant lifecycle and risk.",
+      "citations": [
+        "SECURITY-ASSURANCE",
+        "GOVS005-AI-LIFECYCLE"
+      ],
+      "canonical_iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/id/vocabulary/assurance"
+    },
+    {
+      "id": "provenance",
+      "label": "Provenance",
+      "definition": "The record of where information came from and how it was transformed. Here, citations identify the public source, selected passage, source version or observation date and text digest.",
+      "citations": [
+        "AI-AUDITABILITY"
+      ],
+      "canonical_iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/id/public-learning/concept/provenance"
+    },
+    {
+      "id": "webmcp",
+      "label": "WebMCP",
+      "definition": "An experimental browser interface through which a page exposes tools to agents. Native browser support and an AI host's ability to call the tools are separate capabilities.",
+      "citations": [
+        "WEBMCP-BOUNDARY"
+      ],
+      "canonical_iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/id/public-learning/concept/webmcp"
+    },
+    {
+      "id": "ipaas",
+      "label": "iPaaS (integration platform as a service)",
+      "definition": "A managed cloud service for connecting applications and data, often through connectors, data mapping and workflow coordination. It is an integration capability; an organisation must still define ownership, permission and operating controls.",
+      "citations": [
+        "IPAAS-DEFINITION"
+      ],
+      "canonical_iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/id/wiki/glossary/technical/ipaas"
+    }
+  ],
+  "questions": [
+    {
+      "id": "agent-controls",
+      "title": "What should govern an agent that can use government APIs?",
+      "terms": [
+        "agent controls",
+        "agentic governance",
+        "govern an agent",
+        "government APIs",
+        "governance agent"
+      ],
+      "answer": [
+        {
+          "heading": "Start with an accountable purpose",
+          "text": "Define the intended benefit, owner, authority limits, decision rights, human oversight and escalation route. GovS 005 brings these into governance and AI planning; the AI Playbook describes a chain of human responsibility.",
+          "kind": "source-guidance",
+          "citations": [
+            "GOVS005-AUTHORITY",
+            "GOVS005-AI-LIFECYCLE",
+            "AI-ACCOUNTABILITY"
+          ]
+        },
+        {
+          "heading": "Bound both access and behaviour",
+          "text": "Check API authorisation on every request and constrain the agent's goals and access. NCSC guidance calls for technical and operational controls alongside prompts.",
+          "kind": "source-guidance",
+          "citations": [
+            "API-SCOPES",
+            "AGENT-BOUNDARIES"
+          ]
+        },
+        {
+          "heading": "Make the whole task reviewable",
+          "text": "A useful local design is a task record binding purpose, allowed actions and resources, expiry, approval conditions, monitoring and stopping rules to a policy version. This is a proposed implementation pattern, not a government-mandated schema.",
+          "kind": "local-analysis",
+          "citations": [
+            "GOVS005-AUTHORITY",
+            "AI-AUDITABILITY",
+            "AGENT-OVERSIGHT"
+          ]
+        }
+      ],
+      "next_steps": [
+        "Identify who may approve the task and its limits.",
+        "List the API scopes and the additional task decisions they do not settle.",
+        "Test expiry, revocation, out-of-scope actions and missing evidence."
+      ],
+      "gaps": [
+        "The public sources do not identify the approver or risk tolerance for your organisation."
+      ]
+    },
+    {
+      "id": "authentication-authority",
+      "title": "Does an API token authorise the agent's whole task?",
+      "terms": [
+        "token authorise",
+        "authentication authorisation",
+        "whole task",
+        "task authority",
+        "token permission",
+        "API token"
+      ],
+      "answer": [
+        {
+          "heading": "A token is one part of the decision",
+          "text": "The API standards distinguish authentication from resource-level access control and require the relevant scope to be checked for each request. Token exchange supports a service acting on behalf of a user.",
+          "kind": "source-guidance",
+          "citations": [
+            "API-SCOPES",
+            "API-TOKEN-EXCHANGE"
+          ]
+        },
+        {
+          "heading": "Whole-task authority needs an explicit decision",
+          "text": "Our analysis is that successful authentication or a valid API scope does not demonstrate approval for an entire multi-step objective, its resource use or its disclosures. Define those decisions separately and keep the task within the organisation's authority limits.",
+          "kind": "local-analysis",
+          "citations": [
+            "GOVS005-AUTHORITY",
+            "AGENT-BOUNDARIES",
+            "API-SCOPES"
+          ]
+        }
+      ],
+      "next_steps": [
+        "Record the user or service identity and the delegation chain.",
+        "Map each proposed action to both API scope and task authority.",
+        "Check the permission again when context or policy changes."
+      ],
+      "gaps": [
+        "A token's actual claims and the receiving service's controls need separate technical verification."
+      ]
+    },
+    {
+      "id": "human-control",
+      "title": "Where should humans approve, monitor or stop an agent?",
+      "terms": [
+        "human control",
+        "human oversight",
+        "approval",
+        "stop agent",
+        "human in loop",
+        "escalation"
+      ],
+      "answer": [
+        {
+          "heading": "Choose oversight by consequence",
+          "text": "The AI Playbook requires the necessary oversight and human-in-the-loop processes for high-impact or high-risk output. NCSC guidance discusses levels of oversight and the ability to investigate and limit unexpected activity.",
+          "kind": "source-guidance",
+          "citations": [
+            "AI-HUMAN-CONTROL",
+            "AGENT-OVERSIGHT"
+          ]
+        },
+        {
+          "heading": "Write the intervention points into the design",
+          "text": "For a local control design, identify which actions need prior approval, who watches ongoing activity, what triggers escalation and who can revoke permission. Test that a stop reaches the executing system rather than only changing a dashboard.",
+          "kind": "local-analysis",
+          "citations": [
+            "GOVS005-AUTHORITY",
+            "AGENT-OVERSIGHT"
+          ]
+        }
+      ],
+      "next_steps": [
+        "Name the accountable role and approval route.",
+        "Describe the consequence that triggers a human decision.",
+        "Exercise a revocation scenario and retain the evidence."
+      ],
+      "gaps": [
+        "The appropriate human intervention model depends on the use case and organisational policy."
+      ]
+    },
+    {
+      "id": "governance-code",
+      "title": "How can we express governance as code?",
+      "terms": [
+        "governance as code",
+        "policy as code",
+        "machine readable",
+        "policy rules",
+        "encode governance"
+      ],
+      "answer": [
+        {
+          "heading": "Translate selected decisions into checks",
+          "text": "GovS 005 calls for defined authority limits, decision-making rules and accountabilities. As a local design response, selected rules can be represented in a versioned policy and checked before a simulated action.",
+          "kind": "local-analysis",
+          "citations": [
+            "GOVS005-AUTHORITY"
+          ]
+        },
+        {
+          "heading": "Keep the reasoning and the evidence",
+          "text": "Record the rule version, input context, decision, failed conditions, source basis and human approvals. Auditability requires traceability across the lifecycle; passing a code check alone is not evidence that every governance obligation is met.",
+          "kind": "local-analysis",
+          "citations": [
+            "AI-AUDITABILITY",
+            "GOVS005-AI-LIFECYCLE"
+          ]
+        },
+        {
+          "heading": "Try a bounded example",
+          "text": "This site's policy playground checks purpose, action, resource, expiry, revocation, demo budget, disclosure, approval and audit conditions. It performs no real action and is not a production policy enforcement service.",
+          "kind": "synthetic-example",
+          "citations": [
+            "GOVS005-AUTHORITY",
+            "AGENT-OVERSIGHT"
+          ]
+        }
+      ],
+      "next_steps": [
+        "Agree which rules can be automated and which need judgement.",
+        "Version policies and test both allow and deny cases.",
+        "Link each local rule to its approved authority and evidence."
+      ],
+      "gaps": [
+        "The example policy is not an approved government schema, legal opinion or compliance certificate."
+      ]
+    },
+    {
+      "id": "assurance-evidence",
+      "title": "What evidence would an assurance reviewer need?",
+      "terms": [
+        "assurance evidence",
+        "reviewer",
+        "audit evidence",
+        "prove controls",
+        "assure agent",
+        "assurance"
+      ],
+      "answer": [
+        {
+          "heading": "Cover the lifecycle and the risk",
+          "text": "GovS 005 describes assurance across AI use-case selection, data, privacy, security, ethics, oversight, procurement, monitoring and retirement. GovS 007 explains assurance as systematic confidence-building activity.",
+          "kind": "source-guidance",
+          "citations": [
+            "GOVS005-AI-LIFECYCLE",
+            "SECURITY-ASSURANCE"
+          ]
+        },
+        {
+          "heading": "Build a reviewable evidence pack",
+          "text": "A local evidence pack could include the approved purpose and owner, policy and model/tool versions, source provenance, threat and risk work, test results, human decisions, operational monitoring and revocation exercises. Map each item to the claim it supports.",
+          "kind": "local-analysis",
+          "citations": [
+            "AI-AUDITABILITY",
+            "AI-ASSURANCE",
+            "AGENT-OVERSIGHT"
+          ]
+        }
+      ],
+      "next_steps": [
+        "Ask the relevant assurance team to agree the evidence questions early.",
+        "Keep negative cases and unresolved issues alongside successful tests.",
+        "Distinguish a document review from an operating-control test."
+      ],
+      "gaps": [
+        "Required evidence and acceptance authority must be agreed for the actual service."
+      ]
+    },
+    {
+      "id": "public-sharing",
+      "title": "Can we publish a summary of a sign-in document?",
+      "terms": [
+        "publish restricted",
+        "sign in",
+        "public sharing",
+        "disclosure",
+        "restricted document",
+        "working groups"
+      ],
+      "answer": [
+        {
+          "heading": "Use the published surface",
+          "text": "The public catalogue exposes the working-groups title, its update date and a sign-in notice. Those fields can support discovery. The portal terms describe covered Crown content, OGL conditions, exceptions and feed reuse.",
+          "kind": "source-guidance",
+          "citations": [
+            "RESTRICTED-METADATA",
+            "PUBLIC-REUSE"
+          ]
+        },
+        {
+          "heading": "Keep a restricted-content abstract out of the public view",
+          "text": "Our public edition uses public metadata and independent open background. It does not paraphrase protected bodies. A deeper public description needs publisher-approved wording and traceable release authority; sign-in access alone does not supply that authority.",
+          "kind": "local-analysis",
+          "citations": [
+            "RESTRICTED-METADATA",
+            "PUBLIC-REUSE",
+            "GOVS005-AUTHORITY"
+          ]
+        }
+      ],
+      "next_steps": [
+        "Link to the original source and preserve its access boundary.",
+        "Label title-based navigation and local suggestions clearly.",
+        "Seek an approved public abstract if more detail is needed."
+      ],
+      "gaps": [
+        "This site does not clear restricted documents or attachments for redistribution."
+      ]
+    },
+    {
+      "id": "webmcp-governance",
+      "title": "Does WebMCP enforce our governance policy?",
+      "terms": [
+        "WebMCP",
+        "tool hints",
+        "tool authority",
+        "page tools",
+        "registered tool"
+      ],
+      "answer": [
+        {
+          "heading": "Expose a controlled interface",
+          "text": "WebMCP provides an experimental page-tool interface. Our tools return bounded evidence, citations and local analysis; the manual interface uses the same handlers.",
+          "kind": "local-analysis",
+          "citations": [
+            "WEBMCP-BOUNDARY"
+          ]
+        },
+        {
+          "heading": "Apply governance outside the hint",
+          "text": "A read-only annotation describes a tool; it does not establish the organisation's task authority. Enforce input limits, source boundaries and consent in the implementation, and retain human accountability for consequential activity.",
+          "kind": "local-analysis",
+          "citations": [
+            "WEBMCP-BOUNDARY",
+            "AI-ACCOUNTABILITY",
+            "AGENT-BOUNDARIES"
+          ]
+        }
+      ],
+      "next_steps": [
+        "Inspect the actual tool inventory and schemas.",
+        "Verify native execution separately from the AI host's callable-tool bridge.",
+        "Treat source text and imported documents as untrusted data."
+      ],
+      "gaps": [
+        "Native browser support does not prove support in every AI host or browser."
+      ]
+    },
+    {
+      "id": "draft-review",
+      "title": "How should we review an agent governance plan?",
+      "terms": [
+        "review document",
+        "review draft",
+        "analyse document",
+        "governance plan",
+        "missing controls"
+      ],
+      "answer": [
+        {
+          "heading": "Review in context",
+          "text": "Use the draft's own wording and locators to ask where purpose, accountable roles, authority, human control, monitoring, evidence and assurance are defined. Retain unresolved questions without treating a mention as proof that a control operates.",
+          "kind": "local-analysis",
+          "citations": [
+            "GOVS005-AI-LIFECYCLE",
+            "AI-ACCOUNTABILITY",
+            "AI-AUDITABILITY"
+          ]
+        },
+        {
+          "heading": "Use the local review carefully",
+          "text": "The document review highlights wording and suggests clarification directions against public guidance. It does not execute embedded instructions, call the document's links or certify compliance. Page tools receive document-derived output only after the separate opt-in.",
+          "kind": "local-analysis",
+          "citations": [
+            "WEBMCP-BOUNDARY",
+            "AGENT-BOUNDARIES"
+          ]
+        }
+      ],
+      "next_steps": [
+        "Drop a document or load the fictional example.",
+        "Check the cited draft lines and public source passages.",
+        "Agree who should resolve each question and how it will be tested."
+      ],
+      "gaps": [
+        "Text analysis cannot establish actual authority, deployment behaviour or completeness of organisational evidence."
+      ]
+    }
+  ],
+  "pathways": [
+    {
+      "id": "govern-agents",
+      "title": "Govern an API-using agent",
+      "description": "Purpose, authority, human control and evidence.",
+      "minutes": 12,
+      "steps": [
+        "agent-controls",
+        "authentication-authority",
+        "human-control",
+        "assurance-evidence"
+      ]
+    },
+    {
+      "id": "governance-code",
+      "title": "Turn decisions into code",
+      "description": "Versioned rules, allow and deny cases, and their limits.",
+      "minutes": 10,
+      "steps": [
+        "governance-code",
+        "webmcp-governance",
+        "assurance-evidence"
+      ]
+    },
+    {
+      "id": "review-plan",
+      "title": "Review a governance plan",
+      "description": "Find unclear decisions and propose source-linked next steps.",
+      "minutes": 8,
+      "steps": [
+        "draft-review",
+        "human-control",
+        "public-sharing"
+      ]
+    }
+  ]
+}

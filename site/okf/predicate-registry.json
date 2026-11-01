@@ -1,0 +1,367 @@
+{
+  "counts": {
+    "active_emitted": 11,
+    "assertions_emitted": 5100,
+    "authorised_zero_evidence": 0,
+    "predicates": 11
+  },
+  "generated_at": "2026-10-31T23:49:00Z",
+  "predicates": [
+    {
+      "assertion_statuses": [
+        "normalized"
+      ],
+      "description": "Exact public card identity and source URL.",
+      "domain": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "evidence_policy": {
+        "minimum_fields": [
+          "url",
+          "source_field",
+          "source_value_sha256",
+          "retrieved_at"
+        ]
+      },
+      "implementation": {
+        "assertions_emitted": 716,
+        "state": "active-emitted"
+      },
+      "inverse_label": "is listed in public catalogue",
+      "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/vocab/catalogue-lists",
+      "preferred_label": "lists catalogue entry",
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "source_vocabulary": {
+        "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/profile/public-security-discovery/v1",
+        "version": "1.0.0"
+      },
+      "status": "active"
+    },
+    {
+      "assertion_statuses": [
+        "normalized"
+      ],
+      "description": "Exact public evidence identifier in the authored teaching record; not a binding applicability assertion.",
+      "domain": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "evidence_policy": {
+        "minimum_fields": [
+          "url",
+          "source_field",
+          "source_value_sha256",
+          "retrieved_at"
+        ]
+      },
+      "implementation": {
+        "assertions_emitted": 51,
+        "state": "active-emitted"
+      },
+      "inverse_label": "is cited in local teaching",
+      "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/vocab/learning-cites-evidence",
+      "preferred_label": "cites public evidence",
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "source_vocabulary": {
+        "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/profile/public-security-learning/v1",
+        "version": "1.0.0"
+      },
+      "status": "active"
+    },
+    {
+      "assertion_statuses": [
+        "normalized"
+      ],
+      "description": "Explicit shared evidence identifiers in curated definitions and teaching sections; no inferred official role or identity.",
+      "domain": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "evidence_policy": {
+        "minimum_fields": [
+          "url",
+          "source_field",
+          "source_value_sha256",
+          "retrieved_at"
+        ]
+      },
+      "implementation": {
+        "assertions_emitted": 41,
+        "state": "active-emitted"
+      },
+      "inverse_label": "is discussed in local teaching",
+      "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/vocab/learning-discusses-concept",
+      "preferred_label": "discusses learning concept",
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "source_vocabulary": {
+        "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/profile/public-security-learning/v1",
+        "version": "1.0.0"
+      },
+      "status": "active"
+    },
+    {
+      "assertion_statuses": [
+        "normalized"
+      ],
+      "description": "Explicit authored pathway or index membership; order remains in the authored sequence.",
+      "domain": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "evidence_policy": {
+        "minimum_fields": [
+          "url",
+          "source_field",
+          "source_value_sha256",
+          "retrieved_at"
+        ]
+      },
+      "implementation": {
+        "assertions_emitted": 26,
+        "state": "active-emitted"
+      },
+      "inverse_label": "is included in learning view",
+      "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/vocab/learning-includes",
+      "preferred_label": "includes learning item",
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "source_vocabulary": {
+        "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/profile/public-security-learning/v1",
+        "version": "1.0.0"
+      },
+      "status": "active"
+    },
+    {
+      "assertion_statuses": [
+        "normalized"
+      ],
+      "description": "Public source ID and retained quotation or explicitly labelled paraphrase, with locator and digest.",
+      "domain": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "evidence_policy": {
+        "minimum_fields": [
+          "url",
+          "source_field",
+          "source_value_sha256",
+          "retrieved_at"
+        ]
+      },
+      "implementation": {
+        "assertions_emitted": 17,
+        "state": "active-emitted"
+      },
+      "inverse_label": "has selected public evidence",
+      "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/vocab/public-excerpt-of",
+      "preferred_label": "selects or paraphrases public source",
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "source_vocabulary": {
+        "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/profile/public-security-learning/v1",
+        "version": "1.0.0"
+      },
+      "status": "active"
+    },
+    {
+      "assertion_statuses": [
+        "normalized"
+      ],
+      "description": "Hyperlink observed anonymously in visible main content; target is independently present in the public catalogue.",
+      "domain": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "evidence_policy": {
+        "minimum_fields": [
+          "url",
+          "source_field",
+          "source_value_sha256",
+          "retrieved_at"
+        ]
+      },
+      "implementation": {
+        "assertions_emitted": 588,
+        "state": "active-emitted"
+      },
+      "inverse_label": "is linked from public page",
+      "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/vocab/public-page-links-to-entry",
+      "preferred_label": "public page links to catalogue entry",
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "source_vocabulary": {
+        "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/profile/public-security-discovery/v1",
+        "version": "1.0.0"
+      },
+      "status": "active"
+    },
+    {
+      "assertion_statuses": [
+        "normalized"
+      ],
+      "description": "Recorded title and an explicit lexical rule; no body-based subject assertion.",
+      "domain": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "evidence_policy": {
+        "minimum_fields": [
+          "url",
+          "source_field",
+          "source_value_sha256",
+          "retrieved_at"
+        ]
+      },
+      "implementation": {
+        "assertions_emitted": 156,
+        "state": "active-emitted"
+      },
+      "inverse_label": "has matching public title",
+      "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/vocab/public-title-matches-topic",
+      "preferred_label": "public title matches topic",
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "source_vocabulary": {
+        "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/profile/public-security-discovery/v1",
+        "version": "1.0.0"
+      },
+      "status": "active"
+    },
+    {
+      "assertion_statuses": [
+        "normalized"
+      ],
+      "description": "Exact lexical match in the public title.",
+      "domain": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "evidence_policy": {
+        "minimum_fields": [
+          "url",
+          "source_field",
+          "source_value_sha256",
+          "retrieved_at"
+        ]
+      },
+      "implementation": {
+        "assertions_emitted": 56,
+        "state": "active-emitted"
+      },
+      "inverse_label": "is mentioned in public title",
+      "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/vocab/public-title-mentions-term",
+      "preferred_label": "public title mentions term",
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "source_vocabulary": {
+        "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/profile/public-security-discovery/v1",
+        "version": "1.0.0"
+      },
+      "status": "active"
+    },
+    {
+      "assertion_statuses": [
+        "normalized"
+      ],
+      "description": "Exact public URL section matched to an explicitly curated navigation rule; no assertion about protected contents.",
+      "domain": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "evidence_policy": {
+        "minimum_fields": [
+          "url",
+          "source_field",
+          "source_value_sha256",
+          "retrieved_at"
+        ]
+      },
+      "implementation": {
+        "assertions_emitted": 664,
+        "state": "active-emitted"
+      },
+      "inverse_label": "has public URL grouping",
+      "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/vocab/public-url-groups-with-topic",
+      "preferred_label": "public URL groups with topic",
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "source_vocabulary": {
+        "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/profile/public-security-discovery/v1",
+        "version": "1.0.0"
+      },
+      "status": "active"
+    },
+    {
+      "assertion_statuses": [
+        "normalized"
+      ],
+      "description": "The nearest ancestor URL with its own public catalogue entry; navigation only, not document scope or semantic identity.",
+      "domain": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "evidence_policy": {
+        "minimum_fields": [
+          "url",
+          "source_field",
+          "source_value_sha256",
+          "retrieved_at"
+        ]
+      },
+      "implementation": {
+        "assertions_emitted": 674,
+        "state": "active-emitted"
+      },
+      "inverse_label": "has public URL child",
+      "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/vocab/public-url-parent",
+      "preferred_label": "source URL section",
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "source_vocabulary": {
+        "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/profile/public-security-discovery/v1",
+        "version": "1.0.0"
+      },
+      "status": "active"
+    },
+    {
+      "assertion_statuses": [
+        "inferred"
+      ],
+      "description": "Local discovery suggestion justified by public title metadata; not a claim about protected contents, identity, applicability or authority.",
+      "domain": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "evidence_policy": {
+        "minimum_fields": [
+          "url",
+          "source_field",
+          "source_value_sha256",
+          "retrieved_at"
+        ]
+      },
+      "implementation": {
+        "assertions_emitted": 2111,
+        "state": "active-emitted"
+      },
+      "inverse_label": "is suggested background for",
+      "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/vocab/suggests-public-background",
+      "preferred_label": "suggests public background",
+      "range": [
+        "http://www.w3.org/2000/01/rdf-schema#Resource"
+      ],
+      "source_vocabulary": {
+        "iri": "https://github.com/chris-page-gov/uk-gov-engineering-standards/profile/public-security-discovery/v1",
+        "version": "1.0.0"
+      },
+      "status": "active"
+    }
+  ],
+  "profile": "https://chris-page-gov.github.io/okf-explorer/profile/predicate-registry/v2/",
+  "root_sha256": "3d71bd7501c84afa793433bbc0f1363f5cd28d195e8175f1583b81fdd3001d40",
+  "schema": "okf-predicate-registry.v2",
+  "snapshot": "security-learning-3b3d895e777de2ee"
+}

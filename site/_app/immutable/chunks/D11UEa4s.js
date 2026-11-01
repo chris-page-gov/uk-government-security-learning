@@ -1,0 +1,1 @@
+import{E as e,M as t,Y as n,j as r}from"./BnFdnvpu.js";var i=Object.defineProperty,a=(e,t)=>{let n={};for(var r in e)i(n,r,{get:e[r],enumerable:!0});return t||i(n,Symbol.toStringTag,{value:`Module`}),n};function o(i,a){var o=t(),s=n(o);e(s,()=>a.children),r(i,o)}export{a as n,o as t};

@@ -1,0 +1,92 @@
+{
+  "schema": "security-learning-walkthrough-images.v1",
+  "interface_sha256": "47cc9e0678eabbee2b661894979a344d0f95dc16ee5047a4e7780bf128009e86",
+  "snapshot_id": "security-learning-3b3d895e777de2ee",
+  "images": [
+    {
+      "path": "images/00-start.png",
+      "sha256": "9c8e7cdb61715005769b656bb1f534a8ac420654bf80241f83ac59642a33c470",
+      "bytes": 150264
+    },
+    {
+      "path": "images/01-agent-controls.png",
+      "sha256": "6ad499b71ebe7a9e848b7331e85fd19cd58a18410bf0ad2306b8c71487e7c422",
+      "bytes": 203076
+    },
+    {
+      "path": "images/02-authentication-authority.png",
+      "sha256": "15ccd446a28cced9ec8d42986ca530ac3aeba9ef4067e5763831e1530851169d",
+      "bytes": 176644
+    },
+    {
+      "path": "images/03-human-control.png",
+      "sha256": "d9607761abea66f0929a1f3e6641852bb7d0c655dc53acd5faadaf885edfb363",
+      "bytes": 174402
+    },
+    {
+      "path": "images/04-governance-code.png",
+      "sha256": "3b283580fb59fc398b705b2f3a251acfb5a18759cbea2f0b405ca59e616080d3",
+      "bytes": 198223
+    },
+    {
+      "path": "images/05-assurance-evidence.png",
+      "sha256": "ab3a80312c82b0f726f9c520f5f4ea781c41b18670f4fb5fcb5023f0822f34de",
+      "bytes": 174764
+    },
+    {
+      "path": "images/06-public-sharing.png",
+      "sha256": "d956d57846a354ce7e7f9554659895cf83c1eafb0adfc908a800c7ec56e3af0f",
+      "bytes": 174177
+    },
+    {
+      "path": "images/07-webmcp-governance.png",
+      "sha256": "a565028b9d58ecfb9363ce5c36f1095b3d4554d869aec18363f3f9068ffc9657",
+      "bytes": 167504
+    },
+    {
+      "path": "images/08-draft-review.png",
+      "sha256": "6fa8a7bb8dbce8a457a717c75a62fb23fb31297eff7932e6696bb30fd4a74906",
+      "bytes": 174974
+    },
+    {
+      "path": "images/09-full-citation.png",
+      "sha256": "5ba7b5e890985ac51dc3d82b45c723f788370b9823453246620a0f377eb54ffc",
+      "bytes": 120648
+    },
+    {
+      "path": "images/10-local-document.png",
+      "sha256": "f3f04a79cddb99edc4edfa5d1025bb2141d10a66d58bd39f2b9ea8ffeac4622c",
+      "bytes": 357756
+    },
+    {
+      "path": "images/11-opted-in-review.png",
+      "sha256": "b34afcca91261b9d0f0b1c3ec863164c64308c2740e62be993c16785715168a4",
+      "bytes": 202417
+    },
+    {
+      "path": "images/policy-allowed-draft.png",
+      "sha256": "393405c29430d0cea8fe99bfebddfdc71884b0cc664e62542b056012361e13b7",
+      "bytes": 82531
+    },
+    {
+      "path": "images/policy-revoked-task.png",
+      "sha256": "56a8e30e421da8ad11416d757a160ed9e643758fc0ea78d292ec3ac3647672fd",
+      "bytes": 82376
+    },
+    {
+      "path": "images/policy-restricted-publication.png",
+      "sha256": "cc408fc3b5a50c3f3b8842de2c51f235fbbd869fe4a95afc1ed971dac5cc69b2",
+      "bytes": 82431
+    },
+    {
+      "path": "images/policy-approved-public-summary.png",
+      "sha256": "393405c29430d0cea8fe99bfebddfdc71884b0cc664e62542b056012361e13b7",
+      "bytes": 82531
+    },
+    {
+      "path": "images/12-explorer.png",
+      "sha256": "ac9d0c3fe715697bf9fe321cc2332038baea888269c5ec5557fdb4e7652c56dd",
+      "bytes": 240745
+    }
+  ]
+}

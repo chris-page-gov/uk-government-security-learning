@@ -1,0 +1,2 @@
+# Preserve the assured website bytes and inherited spacing.
+site/** -text -whitespace

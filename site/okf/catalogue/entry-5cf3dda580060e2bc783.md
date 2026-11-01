@@ -1,0 +1,57 @@
+---
+type: Catalogue record
+title: Tracking Secure by Design progress
+description: 'When delivering a digital service you should keep track of a Secure
+  by Design confidence profile to ensure cyber security remains integral and good
+  practice is being applied as the service evolves. Catalogue section: Secure by Design
+  activities. Source page updated: 06 October 2026. Browse cyber security. Public
+  page.'
+status: draft
+generated:
+  at: '2026-10-31T21:30:00Z'
+  by: process:public-security-discovery/1
+---
+
+# Tracking Secure by Design progress
+
+**Source access: Public page.**
+
+Source page updated: 06 October 2026. This is the source page's displayed date, not an event date.
+
+## Public listing abstract
+
+When delivering a digital service you should keep track of a Secure by Design confidence profile to ensure cyber security remains integral and good practice is being applied as the service evolves.
+
+## Find your way
+
+When delivering a digital service you should keep track of a Secure by Design confidence profile to ensure cyber security remains integral and good practice is being applied as the service evolves. Catalogue section: Secure by Design activities. Source page updated: 06 October 2026. Browse cyber security. Public page.
+
+Source URL sections: [Secure by Design](entry-60e4ba50ee0b5e11c143.md) → [Secure by Design activities](entry-e99c8a46f026b5928c0c.md). This is URL-based navigation, not a description of the protected source.
+
+Open topic guides: [Cyber security](../topics/cyber-security.md).
+
+## Linked from public pages
+
+These open pages link to this catalogue entry. Their links do not establish what the protected source contains.
+
+- [About Secure by Design](entry-fc04a693641099f1a47f.md)
+- [Case study: Embracing Secure by Design at the Home Office](entry-df16e8b5d44b9b38389b.md)
+- [Case study: HMRC's adoption of Secure by Design](entry-33914b6595e868755e03.md)
+- [Case study: How UK Export Finance (UKEF) implemented Secure by Design](entry-fa67379adc319675fa65.md)
+- [Case study: Transforming security at DBS with Secure by Design](entry-199ddcd444471e237b1c.md)
+- [Guide to adopting Secure by Design - Operation](entry-74a9ae50319f242789d4.md)
+- [How to integrate Secure by Design into the government gate review life cycle](entry-6de72f95e2e92277a194.md)
+- [Secure by Design Principles](entry-cc1aec182c1b7a3ae39a.md)
+
+[Open the original source](https://www.security.gov.uk/policy-and-guidance/secure-by-design/activities/tracking-secure-by-design-progress/)
+
+Based on the public portal listing observed on 31 October 2026. Only the public listing abstract is retained; attached files need separate review. [About this catalogue](../method.md).
+
+## Suggested open background
+
+Selected using public title matches or source URL sections. These are discovery suggestions, not summaries or requirements of the sign-in source.
+
+- [Secure by Design](entry-60e4ba50ee0b5e11c143.md)
+- [Secure by Design activities](entry-e99c8a46f026b5928c0c.md)
+- [GovAssure](entry-114ec202b3f1296b9ee2.md)
+
