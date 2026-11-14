@@ -251,9 +251,9 @@
       "sha256": "b13175f4b33ebf5759702efe154d463f3e1d30d4c1cb07334c394b677ae80cb9"
     },
     {
-      "bytes": 13577,
+      "bytes": 13951,
       "path": "index.html",
-      "sha256": "85c2a439e2972cabed1a9ca3a6b0f52a3ee1b563e7803392b2149eb1f5cbb3fc"
+      "sha256": "1d712b0e2e2a752130b5718e0ab4d3a8383a17dfed315f6c563fb1481a5a539f"
     },
     {
       "bytes": 1069,
@@ -4386,9 +4386,34 @@
       "sha256": "1ec71b893b6cc6fecfff7ca20ca5d0c4612209e386e4f4d3d8e7ce42fa7c9698"
     },
     {
-      "bytes": 7090,
+      "bytes": 7253,
       "path": "release.json",
-      "sha256": "325a4ba82ddb02ffbeaf1cefe91aa52766f56f65e02b6373a514091cfd35755d"
+      "sha256": "7c7c40d8d19f6eca8f1e407de00d719d5f192bdeba2f5d5b07a29b6c1f09ec1a"
+    },
+    {
+      "bytes": 11506,
+      "path": "supplements/ai-and-architecture/guide.md",
+      "sha256": "86973d263cd37a6da092efe372ef7b50eee75e45f866d8b5c97c6decc08db83a"
+    },
+    {
+      "bytes": 115552,
+      "path": "supplements/ai-and-architecture/index.html",
+      "sha256": "ae335e96da7ff27268a217718557566d50b4efb361f0ad1ef58f13daa3b71394"
+    },
+    {
+      "bytes": 1706,
+      "path": "supplements/ai-and-architecture/profile.json",
+      "sha256": "ca20a1e1a9a904e073d8997614918cf1d3e413e1795826a0e9597bdefd6b2665"
+    },
+    {
+      "bytes": 234975,
+      "path": "supplements/ai-and-architecture/references.json",
+      "sha256": "9f9b5d102a7bd0cfc7a12ee349d7c2feddf551c77fc4c22b9abb6671239f230d"
+    },
+    {
+      "bytes": 287,
+      "path": "supplements/supplement.css",
+      "sha256": "e5aa19832680ce7af1a4d778483aec822cddcf44130ba7c99f6597ea8aa78130"
     },
     {
       "bytes": 90922,
@@ -4501,9 +4526,9 @@
       "sha256": "56a8e30e421da8ad11416d757a160ed9e643758fc0ea78d292ec3ac3647672fd"
     },
     {
-      "bytes": 63698,
+      "bytes": 63906,
       "path": "walkthrough/index.html",
-      "sha256": "26d70eb8b22fe7970ee97335788f95f5fb1cc09114a4daf30f8cc378a043555e"
+      "sha256": "d2f43157c0a4e552d9d7b146ed1ce15300c05b233a08d1ec17f16920e3dba5c3"
     },
     {
       "bytes": 1844,
@@ -4513,5 +4538,5 @@
   ],
   "schema": "security-learning-public-site-manifest.v1",
   "snapshot_id": "security-learning-3b3d895e777de2ee",
-  "source_commit": "36cb60978864aadc9fd781937a8f2de2b4eb6aab"
+  "source_commit": "89882ba930383fbe1b232ccd93bd465971244d01"
 }

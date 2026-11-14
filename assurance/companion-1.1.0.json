@@ -1,0 +1,46 @@
+{
+  "schema": "public-companion-assurance.v1",
+  "edition": "1.1.0",
+  "status": "assured candidate; draft PR, not deployed",
+  "reviewed_pr_head": "6c030443e5bfde90b74614b35389657e565fcd16",
+  "artifact_source_test_merge": "89882ba930383fbe1b232ccd93bd465971244d01",
+  "source_revision_note": "The source workflow checked the GitHub pull-request test merge. This is distinct from the PR head, a merged main commit and the later public publisher commit.",
+  "source_run": "https://github.com/chris-page-gov/uk-gov-engineering-standards/actions/runs/43648216383",
+  "artifact_id": 14135471400,
+  "github_artifact_zip_digest": "sha256:ac86d2f031e4582b4eac797c04fa8c34f97af973ec30929f8193c77d6ce229fb",
+  "downloaded_tar_sha256": "31503831132ee81a4bf5b4468276206b4c1f962a8af504f3cb669ae1fe706c11",
+  "native": {
+    "status": "passed",
+    "actual_native": true,
+    "calls": 25,
+    "checks": 14,
+    "automated_accessibility_violations": 0,
+    "companion_accessibility_violations": 0,
+    "host_bridge": "not established"
+  },
+  "manual": {
+    "status": "passed",
+    "native_api_present": false,
+    "native_calls": 0,
+    "checks": 5
+  },
+  "receipt_sha256": {
+    "public-learning-validation.json": "7c4fd0eb7c0be752e43abf536625a41956857b66b3813b72d47c28e0ddea214f",
+    "public-learning-browser.json": "dcdb217f6704b3cec2be0fbb58f0663ac75fcd58a83eb86e6b29cbd0ded2540d",
+    "public-learning-manual-browser.json": "f3f75530223a108492721bfb78e577f4a13c595a95bc98bab292e47fc913915d"
+  },
+  "companion": {
+    "reference_observations": 461,
+    "unique_requested_urls": 452,
+    "manifests": 12,
+    "tool_indexed": false,
+    "curated_graph_version": "1.0.0"
+  },
+  "remaining": [
+    "Independent domain/rights and human accessibility acceptance.",
+    "Organisational adoption and production controls.",
+    "The companion is separate from the frozen Ask-the-evidence index.",
+    "No source-main merge, release tag, deployment or new live browser acceptance is claimed.",
+    "WCC live work remains parked."
+  ]
+}

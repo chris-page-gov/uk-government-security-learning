@@ -1,0 +1,5 @@
+.supplement { max-width: 76ch; margin-inline: auto; padding: 1.5rem; line-height: 1.65; }
+.supplement a { overflow-wrap: anywhere; }
+.supplement h2 { margin-top: 2rem; }
+.supplement li { margin-block: .6rem; }
+.supplement :focus-visible { outline: 3px solid #fd0; outline-offset: 3px; }
