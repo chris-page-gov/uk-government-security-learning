@@ -178,7 +178,7 @@
   ],
   "schema": "security-learning-public-release.v1",
   "snapshot_id": "security-learning-3b3d895e777de2ee",
-  "source_commit": "89882ba930383fbe1b232ccd93bd465971244d01",
+  "source_commit": "582590475f0bdac7f0c0f5a0ae52ce2605d10146",
   "source_input_state": "verified-commit",
   "supplement": {
     "profile_sha256": "ca20a1e1a9a904e073d8997614918cf1d3e413e1795826a0e9597bdefd6b2665",

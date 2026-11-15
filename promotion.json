@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "source_commit": "89882ba930383fbe1b232ccd93bd465971244d01",
-  "site_manifest_sha256": "7e6b325440ca37c8814fa854a1df773fadcf3d4aed447577d271d06be8c320db",
+  "source_commit": "582590475f0bdac7f0c0f5a0ae52ce2605d10146",
+  "site_manifest_sha256": "6a3aea3387b5e5b51573e8cf0eefd4319511eb2db6845f1a89e0e842a1a2ccee",
   "public_bundle_sha256": "e629578cb925a53edbe2f1b26bb4f52aec38952548863694fc07af9b5c067982",
   "snapshot_id": "security-learning-3b3d895e777de2ee",
   "files": 908,
@@ -9,7 +9,7 @@
   "schema": "security-learning-public-promotion.v1",
   "source_repository": "https://github.com/chris-page-gov/uk-gov-engineering-standards",
   "source_repository_visibility": "private",
-  "assured_workflow_run": "https://github.com/chris-page-gov/uk-gov-engineering-standards/actions/runs/43648216383",
+  "assured_workflow_run": "https://github.com/chris-page-gov/uk-gov-engineering-standards/actions/runs/43746338564",
   "publication_repository": "https://github.com/chris-page-gov/uk-government-security-learning",
   "policy": "Exact assured bytes copied; no rebuild. Protected sources, private findings and operational records excluded."
 }

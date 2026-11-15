@@ -4388,7 +4388,7 @@
     {
       "bytes": 7253,
       "path": "release.json",
-      "sha256": "7c7c40d8d19f6eca8f1e407de00d719d5f192bdeba2f5d5b07a29b6c1f09ec1a"
+      "sha256": "0c9478911add92fda9433f92899b0c8fde66ac846af0538e3ed8644f94b349a2"
     },
     {
       "bytes": 11506,
@@ -4538,5 +4538,5 @@
   ],
   "schema": "security-learning-public-site-manifest.v1",
   "snapshot_id": "security-learning-3b3d895e777de2ee",
-  "source_commit": "89882ba930383fbe1b232ccd93bd465971244d01"
+  "source_commit": "582590475f0bdac7f0c0f5a0ae52ce2605d10146"
 }

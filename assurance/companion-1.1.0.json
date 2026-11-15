@@ -1,14 +1,12 @@
 {
   "schema": "public-companion-assurance.v1",
   "edition": "1.1.0",
-  "status": "assured candidate; draft PR, not deployed",
-  "reviewed_pr_head": "6c030443e5bfde90b74614b35389657e565fcd16",
-  "artifact_source_test_merge": "89882ba930383fbe1b232ccd93bd465971244d01",
-  "source_revision_note": "The source workflow checked the GitHub pull-request test merge. This is distinct from the PR head, a merged main commit and the later public publisher commit.",
-  "source_run": "https://github.com/chris-page-gov/uk-gov-engineering-standards/actions/runs/43648216383",
-  "artifact_id": 14135471400,
-  "github_artifact_zip_digest": "sha256:ac86d2f031e4582b4eac797c04fa8c34f97af973ec30929f8193c77d6ce229fb",
-  "downloaded_tar_sha256": "31503831132ee81a4bf5b4468276206b4c1f962a8af504f3cb669ae1fe706c11",
+  "status": "Main-assured exact bytes; deployment and live acceptance are separately recorded in the private source publication register.",
+  "source_revision_note": "Complete checks and native/manual browser journeys passed on merged main. The later publisher commit and post-release documentation are separate identities.",
+  "source_run": "https://github.com/chris-page-gov/uk-gov-engineering-standards/actions/runs/43746338564",
+  "artifact_id": 14175300948,
+  "github_artifact_zip_digest": "sha256:723539a21603943f3bc2ea89dcb9439537e36d1cb060f155014dd5f3b2212b37",
+  "downloaded_tar_sha256": "5de0a933ef9bda0681a4d0177b060838d681da8d0ab25d4ae460702b12e88e74",
   "native": {
     "status": "passed",
     "actual_native": true,
@@ -25,9 +23,9 @@
     "checks": 5
   },
   "receipt_sha256": {
-    "public-learning-validation.json": "7c4fd0eb7c0be752e43abf536625a41956857b66b3813b72d47c28e0ddea214f",
-    "public-learning-browser.json": "dcdb217f6704b3cec2be0fbb58f0663ac75fcd58a83eb86e6b29cbd0ded2540d",
-    "public-learning-manual-browser.json": "f3f75530223a108492721bfb78e577f4a13c595a95bc98bab292e47fc913915d"
+    "public-learning-validation.json": "ac7117e344b890673988e4de87dd2a184e8baa7831e7c137edaf7b585e578a00",
+    "public-learning-browser.json": "002196da7511decdf9017f48f34b327f3eea7995f9f616ec205df387d6b0c38a",
+    "public-learning-manual-browser.json": "f992e86b88b0f702e0c3c4903e5d72ce5d0dad1c8c2e6001593438042ea011d8"
   },
   "companion": {
     "reference_observations": 461,
@@ -40,7 +38,11 @@
     "Independent domain/rights and human accessibility acceptance.",
     "Organisational adoption and production controls.",
     "The companion is separate from the frozen Ask-the-evidence index.",
-    "No source-main merge, release tag, deployment or new live browser acceptance is claimed.",
     "WCC live work remains parked."
-  ]
+  ],
+  "source_commit": "582590475f0bdac7f0c0f5a0ae52ce2605d10146",
+  "superseded_candidate": {
+    "reviewed_pr_head": "6c030443e5bfde90b74614b35389657e565fcd16",
+    "artifact_source_test_merge": "89882ba930383fbe1b232ccd93bd465971244d01"
+  }
 }
