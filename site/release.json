@@ -1,12 +1,12 @@
 {
-  "edition": "1.0.0",
+  "edition": "1.1.0",
   "imports": "Browser-local in-memory processing; AI-host output requires separate document opt-in.",
   "inputs": {
     "data/public-learning/library.json": "440617dcaab3e328ab3edef974895ef563695c065ce08d87cdbdf923264408de",
     "data/public-learning/pathways.json": "2dfdddefc6733f2a912da88a10de0dfc2e89ea18885d650d665114c78b91e307"
   },
-  "interface_sha256": "47cc9e0678eabbee2b661894979a344d0f95dc16ee5047a4e7780bf128009e86",
-  "prepared_at": "2026-10-31T23:49:00Z",
+  "interface_sha256": "0b1871bffda0d9292fe863aa776403a69dc084a4952f4b76ea77ac92ff8d23ed",
+  "prepared_at": "2026-11-14T22:00:00Z",
   "public_bundle_sha256": "e629578cb925a53edbe2f1b26bb4f52aec38952548863694fc07af9b5c067982",
   "publication_scope": "Public source selections and catalogue metadata, local teaching synthesis and labelled synthetic exercises. No restricted bodies, private findings or source attachments.",
   "reader_commit": "2922cede88d4cd2b3a84473ffd772055b9f409c1",
@@ -178,6 +178,11 @@
   ],
   "schema": "security-learning-public-release.v1",
   "snapshot_id": "security-learning-3b3d895e777de2ee",
-  "source_commit": "36cb60978864aadc9fd781937a8f2de2b4eb6aab",
-  "source_input_state": "verified-commit"
+  "source_commit": "582590475f0bdac7f0c0f5a0ae52ce2605d10146",
+  "source_input_state": "verified-commit",
+  "supplement": {
+    "profile_sha256": "ca20a1e1a9a904e073d8997614918cf1d3e413e1795826a0e9597bdefd6b2665",
+    "tool_indexed": false,
+    "version": "1.1.0"
+  }
 }

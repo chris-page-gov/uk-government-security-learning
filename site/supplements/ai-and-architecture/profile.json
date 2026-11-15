@@ -1,0 +1,25 @@
+{
+  "schema": "public-learning-supplement-profile.v1",
+  "version": "1.1.0",
+  "status": "public-only companion candidate; independent domain acceptance pending",
+  "authorisation": "User instruction of 14 November 2026 to add newer public-source AI and architecture learning to the public publisher. Protected supplied sources and findings remain excluded.",
+  "revision_reason": "Deliberate additive companion revision. Freeze the original 1.0.0 curated graph and historical walkthrough; add independently public summaries, local proposals, a synthetic library boundary and all 461 public acquisition observations as a separate unindexed reference catalogue.",
+  "input_sha256": {
+    "data/public-learning/ai-architecture-supplement.md": "86973d263cd37a6da092efe372ef7b50eee75e45f866d8b5c97c6decc08db83a",
+    "data/public-learning/ai-architecture-references.json": "9f9b5d102a7bd0cfc7a12ee349d7c2feddf551c77fc4c22b9abb6671239f230d"
+  },
+  "expected_scope": {
+    "manifests": 12,
+    "reference_observations": 461,
+    "unique_reference_urls": 452,
+    "tool_indexed": false,
+    "existing_graph_version": "1.0.0",
+    "existing_graph_nodes": 787
+  },
+  "historical_walkthrough": {
+    "snapshot_id": "security-learning-3b3d895e777de2ee",
+    "interface_sha256": "47cc9e0678eabbee2b661894979a344d0f95dc16ee5047a4e7780bf128009e86",
+    "public_bundle_sha256": "e629578cb925a53edbe2f1b26bb4f52aec38952548863694fc07af9b5c067982"
+  },
+  "authority_boundary": "Public-source facts are separately labelled from local assessment, proposed controls and synthetic library behaviour. Link metadata conveys no attachment licence, complete crawl, source truth, operational permission or independent acceptance."
+}

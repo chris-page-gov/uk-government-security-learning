@@ -20,7 +20,7 @@ def verify(root, expected_source=None, expected_manifest=None):
     for row in rows:
         name = row["path"]
         path = root / name
-        if Path(name).is_absolute() or "\\" in name or any(p in {"", ".", "..", "private", "intake", ".git", "node_modules"} for p in name.split("/")) or not path.resolve().is_relative_to(root) or any(p.is_symlink() for p in [path, *path.parents] if p.is_relative_to(root)):
+        if Path(name).is_absolute() or "\\" in name or any(p in {"", ".", "..", "private", "protected-evidence", "intake", ".git", "node_modules"} for p in name.split("/")) or not path.resolve().is_relative_to(root) or any(p.is_symlink() for p in [path, *path.parents] if p.is_relative_to(root)):
             raise ValueError("Unsafe public artifact member")
         data = path.read_bytes()
         if hashlib.sha256(data).hexdigest() != row["sha256"] or len(data) != row["bytes"]:
@@ -40,8 +40,20 @@ def verify(root, expected_source=None, expected_manifest=None):
     if digest != release["public_bundle_sha256"]:
         raise ValueError("Public bundle identity differs")
     capture = json.loads((root / "walkthrough/capture.json").read_text())
-    if any(capture["release"][key] != release[key] for key in ["interface_sha256", "snapshot_id", "public_bundle_sha256"]):
-        raise ValueError("Illustrated walkthrough is stale")
+    keys = ["interface_sha256", "snapshot_id", "public_bundle_sha256"]
+    if any(capture["release"][key] != release[key] for key in keys):
+        # Edition 1.1.0 deliberately preserves the original illustrated capture.
+        # The exact public profile binds all three historical identities, while
+        # the current graph/snapshot must remain unchanged. No image is relabelled.
+        profile_bytes = (root / "supplements/ai-and-architecture/profile.json").read_bytes()
+        profile = json.loads(profile_bytes)
+        supplement = release.get("supplement", {})
+        if release.get("edition") != "1.1.0" or supplement.get("version") != "1.1.0" or supplement.get("tool_indexed") is not False or supplement.get("profile_sha256") != hashlib.sha256(profile_bytes).hexdigest():
+            raise ValueError("Historical walkthrough has no exact approved companion binding")
+        if profile.get("version") != "1.1.0" or profile.get("expected_scope", {}).get("tool_indexed") is not False or any(capture["release"][key] != profile.get("historical_walkthrough", {}).get(key) for key in keys):
+            raise ValueError("Historical walkthrough identity differs from the reviewed profile")
+        if any(capture["release"][key] != release[key] for key in ["snapshot_id", "public_bundle_sha256"]):
+            raise ValueError("Historical walkthrough graph no longer matches")
     return {"status": "passed", "source_commit": release["source_commit"], "site_manifest_sha256": hashlib.sha256(raw).hexdigest(), "public_bundle_sha256": digest, "snapshot_id": release["snapshot_id"], "files": len(actual), "private_source_bodies": 0}
 
 
