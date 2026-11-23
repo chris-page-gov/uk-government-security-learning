@@ -7,3 +7,7 @@ The root website provides cited agentic-governance and governance-as-code learni
 The private source workflow assures the candidate. Its exact bytes are copied here without a rebuild. See promotion.json, site/release.json, site/site-manifest.json and site/licences/. Successful deployment is distinct from live browser acceptance.
 
 Public sector information retains OGL v3.0 and source exceptions. Reader and parsing libraries retain their own notices. There is no blanket licence for the mixed corpus or implied government endorsement. Local teaching and synthetic checks do not establish official adoption or production compliance.
+
+## OKF standards and bundle discovery
+
+The [central standards register](https://github.com/chris-page-gov/okf-explorer/blob/main/docs/okf-standards.md) records current and historical OKF specifications, version-specific pins and the public bundle catalogue. Use the [machine-readable register](https://raw.githubusercontent.com/chris-page-gov/okf-explorer/main/registry/okf-standards.json) to resolve the version implemented by this repository.
